@@ -26,6 +26,9 @@ https://docs.google.com/spreadsheets/d/1yVc_-SRSLmRwNYQCCYc8_ZEUrbIWkhQg0yIYAZMn
 # Maquette de la base de données
 https://github.com/anasely/Alumni-Connect/tree/main/bdd
 # Modélisation sémantique de la BDD
+https://dbdiagram.io/d/6547c4097d8bbd6465857713
+# Interface graphique
+https://www.figma.com/file/aI5w8zOPBdZI3vc4FaYU1r/Untitled?type=design&node-id=2%3A6&mode=design&t=m6OMJ05kwtOPTdzX-1
 
 
 
