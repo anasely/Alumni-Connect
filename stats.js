@@ -9,7 +9,7 @@ function addData(e, d) {
   let data = {};
   d["o:resource_template_property"].forEach((p) => {
     let prop = user.getPropTerm(p["o:property"]["o:id"]);
-    data[prop] = "new item";
+    data[prop] = "Im anasss +";
   });
   user.createRessource(data);
 }
