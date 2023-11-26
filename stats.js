@@ -18,7 +18,7 @@ function loadRT() {
   const divSelector = d3
     .select(".list_RT")
     .append("h4")
-    .text("Resource templates : ");
+    .text("Les Resource templates Anas : ");
   user.getRT((res) => {
     let tableRT = divSelector.append("table");
     let rowRT = tableRT.selectAll("tr").data(res).enter().append("tr");
