@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 27 nov. 2023 à 12:01
+-- Généré le : lun. 27 nov. 2023 à 12:09
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.4.9
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `omk`
+-- Base de données : `omk_thyp_23-24_`
 --
 
 -- --------------------------------------------------------
