@@ -28,7 +28,6 @@ https://github.com/anasely/Alumni-Connect/tree/main/bdd
 # Modélisation sémantique de la BDD
 https://dbdiagram.io/d/6547c4097d8bbd6465857713
 # Interface graphique
-https://www.figma.com/file/aI5w8zOPBdZI3vc4FaYU1r/Untitled?type=design&node-id=2%3A6&mode=design&t=m6OMJ05kwtOPTdzX-1
-
+https://www.figma.com/file/MFFP2jZo0zXamxJT3pkyCJ/alumniconne?type=design&node-id=0-1&mode=design&t=lFPe5I0XBtdG9oYp-0
 
 
