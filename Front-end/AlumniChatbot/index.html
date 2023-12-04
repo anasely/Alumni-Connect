@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	 <meta charset="utf-8" />
+	<title>Alumniconnect</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+<div class="div">
+  <div class="div-2"></div>
+  <div class="div-3"></div>
+  <div class="div-4">
+    <div class="div-5">
+      <div class="div-6">ALUMNI</div>
+      <div class="div-7">Connect</div>
+    </div>
+    <div class="div-8">
+      <div class="div-9"><a href="../index.html">Home</div></a>
+      <div class="div-10">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/271695903e18d0fc84db0845a1d98d947a2d3c383430d31d16461afb05e419d1?apiKey=a37f2267023a4788b5679d656bbb6c19&"
+          class="img"
+        />
+        Assistant virtuel
+      </div>
+      <div class="div-12">Mentorat</div></a>
+      <div class="div-13">Forum</div>
+      <div class="div-14">Événements</div>
+      <div class="div-15">Login</div>
+    </div>
+  </div>
+
+  <br> <br> <br> <br> <br>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Dit quelques choses..." autocomplete="off" autofocus="true" />
+		</div>
+		<img src="bot.png" alt="Robot cartoon" height="200vh">
+	</div>
+	
+	
+  <div class="div-16">
+    <div class="div-17">
+      <div class="div-18">
+        <div class="div-19">ALUMNI</div>
+        <div class="div-20">Connect</div>
+      </div>
+      <div class="div-21">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/81d82772b904e4fdb11e32097f9b8e0183167bc9a7a0cacdf3fcca0fc44f2a04?apiKey=a37f2267023a4788b5679d656bbb6c19&"
+          class="img-2"
+        />
+        <div class="div-22">Saint denis,FR</div>
+      </div>
+      <div class="div-23">© 2023 AlumniConnect</div>
+      <div class="div-24">
+        <div class="div-25">
+          <div class="div-26">Connect</div>
+          <div class="div-27">Mentorat</div>
+          <div class="div-28">Job Alumni</div>
+          <div class="div-29">Mentoring</div>
+          <div class="div-30">Événements</div>
+          <div class="div-31">Projet</div>
+        </div>
+        <div class="div-32">
+          <div class="div-33">À Propos de Nous  </div>
+          <div class="div-34">Help Center</div>
+          <div class="div-35">Conditions d'Utilisation  </div>
+          <div class="div-36">xxxx</div>
+          <div class="div-37">xxxx</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .div {
+    background-color: #fff;
+    display: flex;
+    padding-top: 26px;
+    flex-direction: column;
+  }
+  .div-2 {
+    background-color: #f8f9fa;
+    display: flex;
+    min-height: 1px;
+    width: 100%;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .div-3 {
+    background-color: #f8f9fa;
+    display: flex;
+    min-height: 1px;
+    width: 100%;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+    }
+  }
+  .div-4 {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    padding-right: 49px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+    }
+  }
+  .div-5 {
+    display: flex;
+    margin-top: 4px;
+    align-items: start;
+    gap: 3px;
+  }
+  .div-6 {
+    color: #951e2f;
+    font: 400 27px/28px Lato, sans-serif;
+  }
+  .div-7 {
+    color: #000;
+    font: 400 28px/28px Lato, sans-serif;
+  }
+  .div-8 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 17px;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .div-9 {
+    color: #6c757d;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+    white-space: nowrap;
+    margin: auto 0;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+    }
+  }
+  .div-10 {
+    disply: flex;
+    flex-direction: column;
+    color: #212529;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    stroke-width: 1px;
+    stroke: #6c757d;
+    overflow: hidden;
+    align-self: start;
+    aspect-ratio: 6.172413793103448;
+    margin-top: 5px;
+    justify-content: center;
+    padding: 10px 24px 10px 34px;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      padding: 0 20px;
+    }
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-11 {
+    position: relative;
+  }
+  .div-12 {
+    color: #212529;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+    margin: auto 0;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+  .div-13 {
+    color: #212529;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto 0;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-14 {
+    color: #212529;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto 0;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+  .div-15 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #951e2f;
+    background-color: #951e2f;
+    align-self: start;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 11px 22px 11px 53px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      padding: 0 20px;
+    }
+  }
+  .div-16 {
+    background-color: #fff;
+    display: flex;
+    margin-top: 780px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-17 {
+    border: 1px solid #000;
+    background-color: #951e2f;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 80px 8px 10px;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+  }
+  .div-18 {
+    display: flex;
+    align-items: start;
+    gap: 0px;
+  }
+  .div-19 {
+    color: #f8f9fa;
+    white-space: nowrap;
+    font: 400 23px/36px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-19 {
+      white-space: initial;
+    }
+  }
+  .div-20 {
+    color: #de6778;
+    flex: 1;
+    font: 400 24px/36px Lato, sans-serif;
+  }
+  .div-21 {
+    display: flex;
+    margin-top: 17px;
+    gap: 0px;
+  }
+  .img-2 {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 11px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-22 {
+    color: #f8f9fa;
+    align-self: start;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      white-space: initial;
+    }
+  }
+  .div-23 {
+    color: #f8f9fa;
+    margin-top: 13px;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+  .div-24 {
+    display: flex;
+    margin-top: 47px;
+    width: 328px;
+    max-width: 100%;
+    padding-right: 6px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      margin-top: 40px;
+    }
+  }
+  .div-25 {
+    display: flex;
+    margin-top: 5px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+  }
+  .div-26 {
+    color: #f8f9fa;
+    white-space: nowrap;
+    font: 400 20px/24px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-26 {
+      white-space: initial;
+    }
+  }
+  .div-27 {
+    color: #f8f9fa;
+    margin-top: 18px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-28 {
+    color: #f8f9fa;
+    margin-top: 19px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-29 {
+    color: #f8f9fa;
+    margin-top: 19px;
+    white-space: nowrap;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-29 {
+      white-space: initial;
+    }
+  }
+  .div-30 {
+    color: #f8f9fa;
+    margin-top: 13px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-31 {
+    color: #f8f9fa;
+    margin-top: 19px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-32 {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+  }
+  .div-33 {
+    color: #f8f9fa;
+    font: 400 20px/24px Lato, sans-serif;
+  }
+  .div-34 {
+    color: #f8f9fa;
+    margin-top: 15px;
+    white-space: nowrap;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-34 {
+      white-space: initial;
+    }
+  }
+  .div-35 {
+    color: #f8f9fa;
+    margin-top: 17px;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+  .div-36 {
+    color: #f8f9fa;
+    margin-top: 22px;
+    font: 400 14px/21px Lato, sans-serif;
+  }
+  .div-37 {
+    color: #f8f9fa;
+    margin-top: 22px;
+    font: 400 13px/21px Lato, sans-serif;
+  }
+</style>
+
+</html>
