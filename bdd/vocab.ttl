@@ -4,64 +4,45 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix alumniconnect: <http://vocab.alumniconnect.com#> .
-@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
-<http://vocab.alumniconnect.com> a owl:Ontology ;
-    dcterms:title "Vocabulaire Alumni Connect" .
+<https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
+    dcterms:title "chercheurs" .
 
-alumniconnect:Alumni a rdfs:Class ;
-    rdfs:label "Ancien Étudiant" ;
+jdc:chercheur a rdfs:Class ;
+    rdfs:label "chercheur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-alumniconnect:CurrentStudent a rdfs:Class ;
-    rdfs:label "Étudiant Actuel" ;
+jdc:universite a rdfs:Class ;
+    rdfs:label "universite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-alumniconnect:DiscussionForum a rdfs:Class ;
-    rdfs:label "Forum de Discussion" ;
+jdc:encadrant a rdfs:Class ;
+    rdfs:label "encadrant" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-alumniconnect:Experience a rdfs:Class ;
-    rdfs:label "Expérience" ;
+
+
+#################Propriete###########
+
+
+jdc:nom a rdf:Property ;
+    rdfs:label "nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-alumniconnect:Skill a rdfs:Class ;
-    rdfs:label "Compétence" ;
+jdc:ville a rdf:Property ;
+    rdfs:label "ville" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-alumniconnect:Project a rdfs:Class ;
-    rdfs:label "Projet" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
-alumniconnect:Mentor a rdfs:Class ;
-    rdfs:label "Mentor" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
-alumniconnect:Mentee a rdfs:Class ;
-    rdfs:label "Étudiant Mentoré" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-alumniconnect:hasUsername a rdf:Property ;
-    rdfs:label "a pour Nom d'Utilisateur" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-alumniconnect:hasRole a rdf:Property ;
-    rdfs:label "a pour Rôle" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-alumniconnect:belongsToForum a rdf:Property ;
-    rdfs:label "appartient au Forum" ;
+jdc:numero a rdf:Property ;
+    rdfs:label "numero" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
