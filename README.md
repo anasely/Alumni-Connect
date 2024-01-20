@@ -1,5 +1,8 @@
 # Alumni-Connect
-Une plateforme de partage d'expériences entre les étudiants actuels et les anciens étudiants. 
+
+# Documentation complète du projet en pdf disponible sur ce lien https://github.com/anasely/Alumni-Connect/blob/main/Rapport/Rapport%20Finale%20Alumni%20Connect.pdf
+# Vous Pouvez également la consulter directement depuis ce Repository dans le dossier Rapport
+Alumni Connect est une plateforme de partage d'expériences entre les étudiants actuels et les anciens étudiants. 
 
 Plateforme "Alumni Connect" :
 
